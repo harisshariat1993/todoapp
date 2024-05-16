@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 500px;
+  font-size: 16px;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  min-height: 300px;
+  font-size: 18px;
+  padding-top: 20px;
+  border-radius: 15px;
+
+}
+
+.list {
+  text-align: left;
+}
+
+.list ul {
+  padding-left: 0;
+}
+
+.list ul li {
+  background-color: #75DA8B;
+  color: black;
+  padding: 5px;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.itemlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dlt-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.input-box input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.myButton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.myButton:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+/* Style for the edit and delete buttons */
+.editButton,
+.deleteButton {
+  background-color: #2196F3;
+  border-color: #2196F3;
+  color: white;
+  margin-left: 5px;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  background-color: #0b7dda;
+  border-color: #0b7dda;
+}
+
+/* Style for the "Delete All" button */
+.deleteAllButton {
+  background-color: #f44336;
+  border-color: #f44336;
+  color: white;
+  margin-top: 10px;
+
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.deleteAllButton:hover {
+  background-color: #da190b;
+  border-color: #da190b;
+}
+
+h1 {
+  color: purple;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size: 75px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+
+  }
+
+  .btn-cont{
+    display: flex;
+    justify-content: space-between;
+  }
